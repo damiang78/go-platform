@@ -1,0 +1,9 @@
+branches:
+  - name: main
+    type: release
+commit-analyzers:
+  - name: conventional-commits
+changelog-generators:
+  - name: default
+providers:
+  - name: github
